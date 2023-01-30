@@ -1,0 +1,10 @@
+:root {
+  /* ### Primary */
+  --strong-yan: hsl(171, 66%, 44%);
+  --light-blue: hsl(233, 100%, 69%);
+  /* ### Neutral */
+  --dark-grayish-blue: hsl(210, 10%, 33%);
+  --grayish-blue: hsl(201, 11%, 66%);
+  --font-weigth-400: 400;
+  --font-weigth-600: 600;
+}
