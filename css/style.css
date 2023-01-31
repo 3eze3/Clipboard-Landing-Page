@@ -1,10 +1,86 @@
 :root {
   /* ### Primary */
-  --strong-yan: hsl(171, 66%, 44%);
+  --strong-yan: #26baa4;
   --light-blue: hsl(233, 100%, 69%);
   /* ### Neutral */
   --dark-grayish-blue: hsl(210, 10%, 33%);
   --grayish-blue: hsl(201, 11%, 66%);
   --font-weigth-400: 400;
   --font-weigth-600: 600;
+}
+
+body {
+  background: url(../images/bg-header-desktop.png) 65% top no-repeat;
+}
+
+.menu {
+  width: 100%;
+  height: 100%;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4rem;
+}
+
+.menu__logo {
+  width: 8rem;
+}
+
+/* Container content Text tile btns */
+.menu__wrapper {
+  /* outline: solid green 1px; */
+  width: 45%;
+}
+
+.menu__content {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.menu__title {
+  margin-bottom: 1.5rem;
+  font-size: 2.5em;
+  font-weight: var(--font-weigth-600);
+  line-height: 1;
+  color: var(--dark-grayish-blue);
+}
+
+.menu__description {
+  font-size: 1.15em;
+  line-height: 1.5;
+  color: var(--grayish-blue);
+}
+
+/* Wrapper btns */
+.menu__download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* Buttons */
+.download__btn {
+  padding: .95rem 3rem;
+  font-weight: var(--font-weigth-400);
+  color: #fff;
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+}
+
+/* Customs btns */
+.download__btn--ios {
+  background-color: var(--strong-yan);
+  box-shadow: 0rem .1875rem .1rem 0rem #1c8777;
+}
+
+.download__btn--mac {
+  background-color: var(--light-blue);
+  box-shadow: 0rem .1875rem .1rem 0rem hsl(233, 44%, 46%);
 }
