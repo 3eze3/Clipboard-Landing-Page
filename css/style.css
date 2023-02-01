@@ -249,8 +249,8 @@ section {
 .menu__nav {
   width: 60%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+  gap: 2rem;
 }
 
 .nav__link {
@@ -267,6 +267,18 @@ section {
 
 .menu__icon {
   width: 2.1rem;
+}
+
+.nav__link:hover {
+  color: var(--strong-yan);
+}
+
+.menu__icon {
+  cursor: pointer;
+}
+
+.download__btn:hover {
+  opacity: .8;
 }
 
 /* @media screen and (max-width:490px) {
