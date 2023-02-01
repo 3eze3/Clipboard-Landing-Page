@@ -21,7 +21,7 @@ section {
   margin-bottom: 8rem;
 }
 
-.menu {
+.introduction {
   width: 100%;
   height: 100%;
   margin-top: 7rem;
@@ -33,20 +33,20 @@ section {
   gap: 3.25rem;
 }
 
-.menu__logo {
+.introduction__logo {
   width: 7rem;
 }
 
-.menu__wrapper {
+.introduction__wrapper {
   width: 45%;
 }
 
-.menu__content {
+.introduction__content {
   margin-bottom: 3rem;
   text-align: var(--aling-title-text);
 }
 
-.menu__title {
+.introduction__title {
   margin-bottom: var(--margin-bottom-1-5rem);
   font-size: 2.5em;
   font-weight: var(--font-weigth-600);
@@ -54,7 +54,7 @@ section {
   color: var(--dark-grayish-blue);
 }
 
-.menu__description {
+.introduction__description {
   font-size: 1.15em;
   line-height: 1.5;
   color: var(--grayish-blue);
@@ -226,4 +226,51 @@ section {
   margin-top: 2.75rem;
 }
 
-/* Footer  */
+.menu {
+  width: 100%;
+  background-color: hsla(202, 11%, 66%, 0.105);
+  padding: 1.8rem;
+}
+
+.menu__wrapper {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.menu__image {
+  width: 4.5rem;
+}
+
+.menu__nav {
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+  gap: 1rem;
+}
+
+.nav__link {
+  font-size: 1.15em;
+  color: var(--dark-grayish-blue);
+}
+
+.menu__containerIcons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.menu__icon {
+  width: 2.1rem;
+}
+
+/* @media screen and (max-width:490px) {
+  body {
+    background-color: red;
+  }
+} */
