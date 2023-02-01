@@ -18,7 +18,7 @@ body {
 }
 
 section {
-  margin-bottom: 7.25rem;
+  margin-bottom: 8rem;
 }
 
 .menu {
@@ -60,7 +60,7 @@ section {
   color: var(--grayish-blue);
 }
 
-.menu__download {
+.download {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -182,7 +182,7 @@ section {
   text-align: center;
 }
 
-.tools__containerimage {
+.tools__containerImage {
   min-height: 3rem;
   margin-bottom: 2.1rem;
 }
@@ -192,6 +192,7 @@ section {
   height: 100%;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 .tools__name {
@@ -208,20 +209,21 @@ section {
 }
 
 .workflow__enterprices {
-  /* width: 80%; */
+  width: 80%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
-  justify-content: space-between;
-  /* flex-wrap: wrap; */
-  /* display: flex; */
-  /* justify-content: space-between; */
-  /* align-items: center; */
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  /* for mobile justify-items: center; */
+  align-items: center;
+  gap: 5rem;
 }
 
 .enterprice__icon {
-  width: 9rem;
-  outline: solid red 1px;
+  width: 10rem;
 }
 
 /* section btn  */
+.clipboard__download {
+  margin-top: 2.75rem;
+}
+
 /* Footer  */
