@@ -9,7 +9,7 @@
   --font-weigth-600: 600;
   --size-hgroup-45: 45%;
   --margin-bottom-1-5rem: 1.5rem;
-  --margin-between-sections-10-rem: 10rem;
+  --margin-between-sections-10-rem: 13rem;
   --aling-title-text: center;
 }
 
@@ -18,7 +18,7 @@ body {
 }
 
 section {
-  margin-bottom: 8rem;
+  margin-bottom: 10rem;
 }
 
 .introduction {
