@@ -9,7 +9,7 @@
   --font-weigth-600: 600;
   --size-hgroup-45: 45%;
   --margin-bottom-1-5rem: 1.5rem;
-  --margin-between-sections-10-rem: 13rem;
+  --margin-between-sections-10-rem: 11.1rem;
   --aling-title-text: center;
 }
 
@@ -18,7 +18,7 @@ body {
 }
 
 section {
-  margin-bottom: 10rem;
+  margin-bottom: 8.7rem;
 }
 
 .introduction {
@@ -38,7 +38,7 @@ section {
 }
 
 .introduction__wrapper {
-  width: 45%;
+  width: 50%;
 }
 
 .introduction__content {
@@ -48,7 +48,7 @@ section {
 
 .introduction__title {
   margin-bottom: var(--margin-bottom-1-5rem);
-  font-size: 2.5em;
+  font-size: 2.72em;
   font-weight: var(--font-weigth-600);
   line-height: 1;
   color: var(--dark-grayish-blue);
@@ -61,6 +61,7 @@ section {
 }
 
 .download {
+  margin-top: 2.1rem;
   display: flex;
   justify-content: center;
   align-items: center;
