@@ -9,7 +9,7 @@
   --font-weigth-600: 600;
   --size-hgroup-45: 45%;
   --margin-bottom-1-5rem: 1.5rem;
-  --margin-between-sections-10-rem: 10rem;
+  --margin-between-sections-10-rem: 13rem;
   --aling-title-text: center;
 }
 
@@ -18,13 +18,13 @@ body {
 }
 
 section {
-  margin-bottom: 8rem;
+  margin-bottom: 10rem;
 }
 
 .introduction {
   width: 100%;
   height: 100%;
-  margin-top: 7rem;
+  margin-top: 8.25rem;
   margin-bottom: var(--margin-between-sections-10-rem);
   display: flex;
   flex-direction: column;
@@ -34,7 +34,7 @@ section {
 }
 
 .introduction__logo {
-  width: 7rem;
+  width: 8.1rem;
 }
 
 .introduction__wrapper {
